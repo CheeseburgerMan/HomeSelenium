@@ -61,7 +61,7 @@ namespace TestingPOM {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to addauser.php.
+        ///   Looks up a localized string similar to http://thedemosite.co.uk/addauser.php.
         /// </summary>
         internal static string ExpectedAddUserHeaderLinkHREF {
             get {
@@ -79,7 +79,7 @@ namespace TestingPOM {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to thedatabase.php.
+        ///   Looks up a localized string similar to http://thedemosite.co.uk/thedatabase.php.
         /// </summary>
         internal static string ExpectedDBHeaderLinkHREF {
             get {
@@ -97,7 +97,7 @@ namespace TestingPOM {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to getyourowndbonline.php.
+        ///   Looks up a localized string similar to http://thedemosite.co.uk/getyourowndbonline.php.
         /// </summary>
         internal static string ExpectedDBOnlineHeaderLinkHREF {
             get {
@@ -115,7 +115,7 @@ namespace TestingPOM {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to index.php.
+        ///   Looks up a localized string similar to http://thedemosite.co.uk/index.php.
         /// </summary>
         internal static string ExpectedHomeHeaderLinkHREF {
             get {
@@ -160,7 +160,7 @@ namespace TestingPOM {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to login.php.
+        ///   Looks up a localized string similar to http://thedemosite.co.uk/login.php.
         /// </summary>
         internal static string ExpectedLoginHeaderLinkHREF {
             get {
