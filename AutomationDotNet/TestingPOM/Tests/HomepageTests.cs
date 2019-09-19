@@ -18,7 +18,35 @@ namespace TestingPOM.Tests
             home = new Homepage(driver);
 
             home.GoToHomepage()
-                .CheckHomepageHeader();
+                .CheckHomepageHeading();
+        }
+
+        [Test]
+        public void CheckHomepageIntroStrings()
+        {
+            home = new Homepage(driver);
+
+            home.GoToHomepage()
+                .CheckIntroStrings();
+        }
+
+        [Test]
+        public void CheckHomepageHeaderLinkTexts()
+        {
+            home = new Homepage(driver);
+
+            home.GoToHomepage()
+                .CheckHeaderLinksDisplayed()
+                .CheckHeaderLinksHaveCorrectText();
+        }
+
+        [Test]
+        public void CheckHomepageHeaderLinkHREFs()
+        {
+            home = new Homepage(driver);
+
+            home.GoToHomepage()
+                .CheckHeaderLinkHREFs();
         }
     }
 }

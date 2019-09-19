@@ -117,8 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="baseURL" xml:space="preserve">
-    <value>http://thedemosite.co.uk/</value>
-    <comment>base url for this site</comment>
+  <data name="ExpectedAddUserHeaderLinkHREF" xml:space="preserve">
+    <value>addauser.php</value>
+  </data>
+  <data name="ExpectedAddUserHeaderLinkText" xml:space="preserve">
+    <value>3. Add a User</value>
+  </data>
+  <data name="ExpectedDBHeaderLinkHREF" xml:space="preserve">
+    <value>thedatabase.php</value>
+  </data>
+  <data name="ExpectedDBHeaderLinkText" xml:space="preserve">
+    <value>2.The Database</value>
+  </data>
+  <data name="ExpectedDBOnlineHeaderLinkHREF" xml:space="preserve">
+    <value>getyourowndbonline.php</value>
+  </data>
+  <data name="ExpectedDBOnlineHeaderLinkText" xml:space="preserve">
+    <value>5. Get your db online</value>
+  </data>
+  <data name="ExpectedHomeHeaderLinkHREF" xml:space="preserve">
+    <value>index.php</value>
+  </data>
+  <data name="ExpectedHomeHeaderLinkText" xml:space="preserve">
+    <value>1. Home</value>
+  </data>
+  <data name="ExpectedHomepageHeading" xml:space="preserve">
+    <value>1. Home</value>
+    <comment>Expected value for homepage header</comment>
+  </data>
+  <data name="ExpectedIntroString1" xml:space="preserve">
+    <value>Follow the links above, in sequence, for an example of a username &amp; password login web based system, developed using PHP, JavaScript and a MySQL database.</value>
+    <comment>this string is found on homepage (first string)</comment>
+  </data>
+  <data name="ExpectedIntroString2" xml:space="preserve">
+    <value>All files on this site are generated using a default header and footer using &lt;?php include("afilename.inc"); ?&gt;  This page you are viewing is generated from the following three files:</value>
+    <comment>this string is found on homepage (second string)</comment>
+  </data>
+  <data name="ExpectedLoginHeaderLinkHREF" xml:space="preserve">
+    <value>login.php</value>
+  </data>
+  <data name="ExpectedLoginHeaderLinkText" xml:space="preserve">
+    <value>4. Login</value>
   </data>
 </root>

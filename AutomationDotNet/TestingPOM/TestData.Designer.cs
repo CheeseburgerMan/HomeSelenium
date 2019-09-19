@@ -61,11 +61,119 @@ namespace TestingPOM {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://thedemosite.co.uk/.
+        ///   Looks up a localized string similar to addauser.php.
         /// </summary>
-        internal static string baseURL {
+        internal static string ExpectedAddUserHeaderLinkHREF {
             get {
-                return ResourceManager.GetString("baseURL", resourceCulture);
+                return ResourceManager.GetString("ExpectedAddUserHeaderLinkHREF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3. Add a User.
+        /// </summary>
+        internal static string ExpectedAddUserHeaderLinkText {
+            get {
+                return ResourceManager.GetString("ExpectedAddUserHeaderLinkText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to thedatabase.php.
+        /// </summary>
+        internal static string ExpectedDBHeaderLinkHREF {
+            get {
+                return ResourceManager.GetString("ExpectedDBHeaderLinkHREF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2.The Database.
+        /// </summary>
+        internal static string ExpectedDBHeaderLinkText {
+            get {
+                return ResourceManager.GetString("ExpectedDBHeaderLinkText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to getyourowndbonline.php.
+        /// </summary>
+        internal static string ExpectedDBOnlineHeaderLinkHREF {
+            get {
+                return ResourceManager.GetString("ExpectedDBOnlineHeaderLinkHREF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5. Get your db online.
+        /// </summary>
+        internal static string ExpectedDBOnlineHeaderLinkText {
+            get {
+                return ResourceManager.GetString("ExpectedDBOnlineHeaderLinkText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to index.php.
+        /// </summary>
+        internal static string ExpectedHomeHeaderLinkHREF {
+            get {
+                return ResourceManager.GetString("ExpectedHomeHeaderLinkHREF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1. Home.
+        /// </summary>
+        internal static string ExpectedHomeHeaderLinkText {
+            get {
+                return ResourceManager.GetString("ExpectedHomeHeaderLinkText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1. Home.
+        /// </summary>
+        internal static string ExpectedHomepageHeading {
+            get {
+                return ResourceManager.GetString("ExpectedHomepageHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Follow the links above, in sequence, for an example of a username &amp; password login web based system, developed using PHP, JavaScript and a MySQL database..
+        /// </summary>
+        internal static string ExpectedIntroString1 {
+            get {
+                return ResourceManager.GetString("ExpectedIntroString1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All files on this site are generated using a default header and footer using &lt;?php include(&quot;afilename.inc&quot;); ?&gt;  This page you are viewing is generated from the following three files:.
+        /// </summary>
+        internal static string ExpectedIntroString2 {
+            get {
+                return ResourceManager.GetString("ExpectedIntroString2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to login.php.
+        /// </summary>
+        internal static string ExpectedLoginHeaderLinkHREF {
+            get {
+                return ResourceManager.GetString("ExpectedLoginHeaderLinkHREF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 4. Login.
+        /// </summary>
+        internal static string ExpectedLoginHeaderLinkText {
+            get {
+                return ResourceManager.GetString("ExpectedLoginHeaderLinkText", resourceCulture);
             }
         }
     }
