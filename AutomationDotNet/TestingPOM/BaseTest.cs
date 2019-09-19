@@ -17,6 +17,7 @@ namespace TestingPOM
         public void InitializeDriver()
         {
             driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
         }
 
         [TearDown]
