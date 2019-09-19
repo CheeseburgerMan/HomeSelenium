@@ -88,7 +88,7 @@ namespace TestingPOM {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2.The Database.
+        ///   Looks up a localized string similar to 2. The Database.
         /// </summary>
         internal static string ExpectedDBHeaderLinkText {
             get {

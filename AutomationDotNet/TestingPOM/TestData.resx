@@ -127,7 +127,7 @@
     <value>http://thedemosite.co.uk/thedatabase.php</value>
   </data>
   <data name="ExpectedDBHeaderLinkText" xml:space="preserve">
-    <value>2.The Database</value>
+    <value>2. The Database</value>
   </data>
   <data name="ExpectedDBOnlineHeaderLinkHREF" xml:space="preserve">
     <value>http://thedemosite.co.uk/getyourowndbonline.php</value>
