@@ -38,45 +38,65 @@ namespace TestingPOM.PageObjects
 
         public Homepage CheckHomepageHeading()
         {
-            Assert.AreEqual(TestData.ExpectedHomepageHeading, HomeHeading.Text);
-            Assert.IsTrue(HomeHeading.Displayed);
+            Assert.Multiple(() =>
+            {
+                Assert.AreEqual(TestData.ExpectedHomepageHeading, HomeHeading.Text);
+                Assert.IsTrue(HomeHeading.Displayed);
+            });
+            
             return this;
         }
 
         public Homepage CheckIntroStrings()
         {
-            Assert.AreEqual(TestData.ExpectedIntroString1, IntroString1.Text);
-            Assert.AreEqual(TestData.ExpectedIntroString2, IntroString2.Text);
+            Assert.Multiple(() =>
+            {
+                Assert.AreEqual(TestData.ExpectedIntroString1, IntroString1.Text);
+                Assert.AreEqual(TestData.ExpectedIntroString2, IntroString2.Text);
+            });
+            
             return this;
         }
 
         public Homepage CheckHeaderLinksDisplayed()
         {
-            Assert.IsTrue(HomeHeaderLink.Displayed);
-            Assert.IsTrue(DatabaseHeaderLink.Displayed);
-            Assert.IsTrue(AddAUserHeaderLink.Displayed);
-            Assert.IsTrue(LoginHeaderLink.Displayed);
-            Assert.IsTrue(GetDBOnlineHeaderLink.Displayed);
+            Assert.Multiple(() =>
+            {
+                Assert.IsTrue(HomeHeaderLink.Displayed);
+                Assert.IsTrue(DatabaseHeaderLink.Displayed);
+                Assert.IsTrue(AddAUserHeaderLink.Displayed);
+                Assert.IsTrue(LoginHeaderLink.Displayed);
+                Assert.IsTrue(GetDBOnlineHeaderLink.Displayed);
+            });
+            
             return this;
         }
 
         public Homepage CheckHeaderLinksHaveCorrectText()
         {
-            Assert.AreEqual(TestData.ExpectedHomeHeaderLinkText, HomeHeaderLink.Text);
-            Assert.AreEqual(TestData.ExpectedDBHeaderLinkText, DatabaseHeaderLink.Text);
-            Assert.AreEqual(TestData.ExpectedAddUserHeaderLinkText, AddAUserHeaderLink.Text);
-            Assert.AreEqual(TestData.ExpectedLoginHeaderLinkText, LoginHeaderLink.Text);
-            Assert.AreEqual(TestData.ExpectedDBOnlineHeaderLinkText, GetDBOnlineHeaderLink.Text);
+            Assert.Multiple(() =>
+            {
+                Assert.AreEqual(TestData.ExpectedHomeHeaderLinkText, HomeHeaderLink.Text);
+                Assert.AreEqual(TestData.ExpectedDBHeaderLinkText, DatabaseHeaderLink.Text);
+                Assert.AreEqual(TestData.ExpectedAddUserHeaderLinkText, AddAUserHeaderLink.Text);
+                Assert.AreEqual(TestData.ExpectedLoginHeaderLinkText, LoginHeaderLink.Text);
+                Assert.AreEqual(TestData.ExpectedDBOnlineHeaderLinkText, GetDBOnlineHeaderLink.Text);
+            });
+            
             return this;
         }
 
         public Homepage CheckHeaderLinkHREFs()
         {
-            Assert.AreEqual(TestData.ExpectedHomeHeaderLinkHREF, HomeHeaderLink.GetAttribute("href"));
-            Assert.AreEqual(TestData.ExpectedDBHeaderLinkHREF, DatabaseHeaderLink.GetAttribute("href"));
-            Assert.AreEqual(TestData.ExpectedAddUserHeaderLinkHREF, AddAUserHeaderLink.GetAttribute("href"));
-            Assert.AreEqual(TestData.ExpectedLoginHeaderLinkHREF, LoginHeaderLink.GetAttribute("href"));
-            Assert.AreEqual(TestData.ExpectedDBOnlineHeaderLinkHREF, GetDBOnlineHeaderLink.GetAttribute("href"));
+            Assert.Multiple(() =>
+            {
+                Assert.AreEqual(TestData.ExpectedHomeHeaderLinkHREF, HomeHeaderLink.GetAttribute("href"));
+                Assert.AreEqual(TestData.ExpectedDBHeaderLinkHREF, DatabaseHeaderLink.GetAttribute("href"));
+                Assert.AreEqual(TestData.ExpectedAddUserHeaderLinkHREF, AddAUserHeaderLink.GetAttribute("href"));
+                Assert.AreEqual(TestData.ExpectedLoginHeaderLinkHREF, LoginHeaderLink.GetAttribute("href"));
+                Assert.AreEqual(TestData.ExpectedDBOnlineHeaderLinkHREF, GetDBOnlineHeaderLink.GetAttribute("href"));
+            });
+            
             return this;
         }
     }
