@@ -18,6 +18,7 @@ namespace TestingPOM.PageObjects
             this.webdriver = driver;
         }
         
+        #region elements
         //intro elements
         private IWebElement HomeHeading => webdriver.FindElement(By.XPath("/html/body/table/tbody/tr/td[1]/center/big/strong"));
         private IWebElement IntroString1 => webdriver.FindElement(By.XPath("/html/body/table/tbody/tr/td[1]/p[2]"));
@@ -28,6 +29,7 @@ namespace TestingPOM.PageObjects
         private IWebElement AddAUserHeaderLink => webdriver.FindElement(By.XPath("/html/body/div/center/table/tbody/tr[2]/td/div/center/table/tbody/tr/td[2]/p/small/a[3]"));
         private IWebElement LoginHeaderLink => webdriver.FindElement(By.XPath("/html/body/div/center/table/tbody/tr[2]/td/div/center/table/tbody/tr/td[2]/p/small/a[4]"));
         private IWebElement GetDBOnlineHeaderLink => webdriver.FindElement(By.XPath("/html/body/div/center/table/tbody/tr[2]/td/div/center/table/tbody/tr/td[2]/p/small/a[5]"));
+        #endregion elements
 
         public Homepage GoToHomepage()
         {
@@ -36,6 +38,7 @@ namespace TestingPOM.PageObjects
             return this;
         }
 
+        #region Homepage asserts
         public Homepage CheckHomepageHeading()
         {
             Assert.Multiple(() =>
@@ -99,5 +102,6 @@ namespace TestingPOM.PageObjects
             
             return this;
         }
+        #endregion Homepage asserts
     }
 }
